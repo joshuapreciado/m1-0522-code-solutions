@@ -5,9 +5,14 @@
   src: url("BrandonGrotesque-Medium.woff2") format("woff2");
 }
 
+section {
+  margin: auto;
+  width: 500px;
+}
+
 h2 {
+  padding-top: 50px;
   text-align: center;
-  margin-top: 90px;
   color: #ec5d57;
   font-size: 22px;
 }
@@ -15,7 +20,6 @@ h2 {
 input {
   border-radius: 6px;
   border: 2px solid lightgrey;
-  margin-left: 700px;
   width: 500px;
   padding: 7px;
   font-size: 16px;
@@ -23,7 +27,6 @@ input {
 }
 
 label {
-  margin-left: 718px;
   font-size: 14px;
 }
 
@@ -31,16 +34,14 @@ select {
   border-radius: 6px;
   border: 2px solid lightgrey;
   justify-content: center;
-  margin-left: 700px;
   width: 500px;
   padding: 10px;
   font-size: 16px;
-  margin-bottom: 15px;
   text-align: start;
   background-color: #f3f3f3;
 }
 
-div > input:nth-child(1) {
+div > input {
   color: rgb(245 245 245 / 93.8%);
   background-color: #ec5d57;
   border: #ec5d57 solid 1px;
@@ -48,7 +49,9 @@ div > input:nth-child(1) {
   width: 95px;
   padding: 5px;
   font-size: 15px;
-  margin-left: 1100px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 400px;
 }
 
 ::placeholder {
