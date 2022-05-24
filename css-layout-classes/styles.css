@@ -17,7 +17,6 @@ h4 {
 
 p {
   font-family: sans-serif;
-  font-size: 17px;
 }
 
 img {
@@ -30,4 +29,8 @@ img {
 
 .column-one-fourth {
   flex-basis: calc(100% / 4);
+}
+
+.column-two-third {
+  flex-basis: calc(200% / 3);
 }
