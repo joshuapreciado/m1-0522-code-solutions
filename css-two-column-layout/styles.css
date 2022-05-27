@@ -48,6 +48,7 @@ h5 {
   display: flex;
   flex-basis: calc(100% / 2);
   justify-content: center;
+  width: 100%;
 }
 
 .column-half {
