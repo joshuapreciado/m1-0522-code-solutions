@@ -133,10 +133,6 @@
   flex-basis: calc(200% / 2);
 }
 
-.column-three {
-  display: flex;
-}
-
 .column-three-third {
   column-width: 100%;
   flex-basis: calc(100% / 2);
@@ -224,10 +220,6 @@
 
 .imagetest > img {
   width: 130px;
-}
-
-.column-five {
-  display: flex;
 }
 
 .column-five-1 {
