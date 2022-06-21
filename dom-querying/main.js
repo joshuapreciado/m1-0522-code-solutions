@@ -1,9 +1,11 @@
 console.log('hello, world');
 var test1 = document.querySelector('h1');
 console.log('$heading', test1);
+console.log(test1);
 console.dir(test1);
 
 var test2 = document.querySelector('#explanation');
+console.log(test2);
 console.dir(test2);
 
 var test3 = document.querySelector('.hint');
