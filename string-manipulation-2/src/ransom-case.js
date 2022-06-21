@@ -8,19 +8,4 @@
 // string.
 
 function ransomCase(string) {
-  if (string.toLowerCase() === 'foo') {
-    return 'fOo';
-  }
-  if (string.toLowerCase() === 'quux') {
-    return 'qUuX';
-  }
-  if (string.toLowerCase() === 'waldo') {
-    return 'wAlDo';
-  }
-  if (string.toLowerCase() === 'javascript') {
-    return 'jAvAsCrIpT';
-  }
-  if (string.toLowerCase() === 'learningfuze') {
-    return 'lEaRnInGfUzE';
-  }
 }
