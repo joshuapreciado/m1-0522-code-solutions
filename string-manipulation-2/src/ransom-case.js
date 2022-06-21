@@ -8,4 +8,9 @@
 // string.
 
 function ransomCase(string) {
+  var test1 = string.toLowerCase().split('');
+  for (var i = 1; i < test1.length; i += 2) {
+    test1[i] = test1[i].toUpperCase();
+  }
+  return test1.join('');
 }
