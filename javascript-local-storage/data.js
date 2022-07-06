@@ -4,8 +4,7 @@ var todos = [];
 
 var previousTodosJSON = localStorage.getItem('javascript-local-storage');
 if (previousTodosJSON !== null) {
-  // eslint-disable-next-line no-redeclare
-  var todos = JSON.parse(previousTodosJSON);
+  todos = JSON.parse(previousTodosJSON);
 }
 
 window.addEventListener('beforeunload', function (event) {
