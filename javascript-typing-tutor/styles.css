@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+  font-size: 30px;
+}
+
+.underline {
+  border-bottom: 4px solid black;
+}
+
+.underlinebad {
+  border-bottom: 4px solid red;
+}
+
+.green {
+  color: #04f508;
+}
+
+.red {
+  color: red;
+}
